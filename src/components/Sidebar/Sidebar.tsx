@@ -12,11 +12,12 @@ export const Sidebar:FC<SidebarProps> = ({IsOpen,OnClose}) => {
         <Drawer placement={'left'} onClose={OnClose} isOpen={IsOpen}>
             <DrawerOverlay />
             <DrawerContent>
-                <DrawerHeader borderBottomWidth='1px'>Basic Drawer</DrawerHeader>
+                <DrawerHeader borderBottomWidth='1px'>Menu</DrawerHeader>
                 <DrawerBody>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
-                    <p>Some contents...</p>
+                    <p>Seccion Principal</p>
+                    <p>Seccion de servicios</p>
+                    <p>Seccion de nosotros</p>
+                    <p>Contactanos</p>
                 </DrawerBody>
             </DrawerContent>
         </Drawer>
